@@ -1,4 +1,5 @@
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/developing_.net_applications_in_rhel_8/using-net-core-on-ocp_gsg
+
 create mydemo projectname and deploy jenkins there. post that create projects test and prod and run below commands:
 
 [rdodia-redhat.com@clientvm 0 ~]$  oc adm policy add-role-to-user admin system:serviceaccount:mydemo:jenkins -n test
